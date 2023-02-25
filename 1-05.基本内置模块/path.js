@@ -1,0 +1,16 @@
+const path = require('node:path');
+// console.log(path)
+// console.log(path.basename("https://nodejs.org/docs/latest-v18.x/api/path.html"))
+// console.log(path.basename("https://nodejs.org/docs/latest-v18.x/api/path.html", ".html"))
+
+// const resultPath = "a/b/c/d".split(path.sep)
+// console.log(resultPath, path.sep)
+// console.log(path.delimiter)
+// console.log(path.dirname("https://nodejs.org/docs/latest-v18.x/api/path.html"))
+// console.log(path.extname("1.html"))
+// console.log(path.join("/a", "b", "c", "d", ".."))
+// console.log(path.normalize("/a/b/c/d/.."))
+// console.log(path.relative("a/b/c/d", "a/b/e/f"))
+// console.log(path.relative("", ""))
+// console.log(path.resolve('/foo', '/bar', 'baz'))
+// console.log(path.resolve('/foo/bar', 'baz'))
