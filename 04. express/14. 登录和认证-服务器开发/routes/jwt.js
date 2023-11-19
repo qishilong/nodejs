@@ -10,7 +10,7 @@ exports.publish = function (res, maxAge = 3600 * 24, info = {}) {
   //添加到cookie
   res.cookie(cookieKey, token, {
     maxAge: maxAge * 1000,
-    path: "/",
+    path: "/"
   });
   //添加其他传输
   res.header("authorization", token);
@@ -34,7 +34,7 @@ exports.verify = function (req) {
   try {
     const result = jwt.verify(token, secrect);
     return result;
-  } catch(err) {
+  } catch (err) {
     return null;
   }
 };
